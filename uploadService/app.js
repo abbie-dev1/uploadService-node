@@ -13,7 +13,7 @@ const cors = require('cors');
 
 // Initialize environment
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3200;
 const mongoURI = 'mongodb://localhost:27017/pwd'
 
 // Create Mongo connection
